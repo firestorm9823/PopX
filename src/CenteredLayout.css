@@ -1,0 +1,29 @@
+/* Centered Layout for All Screens */
+.centered-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .centered-card {
+    width: 100%;
+    max-width: 400px;
+    background: white;
+    border-radius: 16px;
+    padding: 2.5rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    .centered-card {
+      padding: 1.5rem;
+      box-shadow: none;
+      background: transparent;
+      max-width: 100%;
+    }
+  }
